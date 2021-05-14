@@ -9,6 +9,7 @@ import TodoList from './component/TodoList';
 import queryString from 'query-string';
 import PostFilterForm from './component/PostFilterForm';
 import Clock from './component/Clock';
+import BetterClock from './component/BetterClock';
 
 function App() {
 
@@ -93,11 +94,12 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to react hook-ColorBox-TodoList-Search-Clock</h1>
-      <Clock />
+
       {/* <PostFilterForm onSubmit={handleFilterFormSubmit} />
-      <PostList posts={postList} />
+      <PostList posts={postList} /> */}
       <ColorBox />
-      <TodoForm onSubmit={handleTodoFormSubmit} />
+      {/* <BetterClock /> */}
+      {/* <TodoForm onSubmit={handleTodoFormSubmit} />
       <TodoList todos={todoList} onTodoClick={handleTodoClick} />
       <Pagination
         pagination={pagination}
